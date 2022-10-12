@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Student Assistance App</string>
+    <string name="btnLogin">Login</string>
+    <string name="txtLogin">Login</string>
+    <string name="etUsername">Username</string>
+    <string name="etPassword">Password</string>
+</resources>
