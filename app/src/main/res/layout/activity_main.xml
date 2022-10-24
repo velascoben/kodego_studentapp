@@ -18,10 +18,10 @@
         android:textColor="@color/secondaryBlue"
         android:textSize="30sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        app:layout_constraintTop_toBottomOf="@+id/imgLogo" />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/imgLogo"
         android:layout_width="137dp"
         android:layout_height="146dp"
         android:layout_marginTop="64dp"
@@ -98,7 +98,7 @@
         android:textColor="@color/secondaryBlue"
         android:textColorHint="@color/secondaryBlue"
         android:textStyle="bold"
-        app:layout_constraintStart_toEndOf="@+id/textView2"
+        app:layout_constraintStart_toEndOf="@+id/txtNoAccount"
         app:layout_constraintTop_toBottomOf="@+id/btnLogin" />
 
     <ImageButton
@@ -111,7 +111,7 @@
         android:src="@drawable/googleicon"
         app:layout_constraintEnd_toStartOf="@+id/facebooklogin"
         app:layout_constraintStart_toEndOf="@+id/yahoologin"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/txtLabelOR"
         tools:ignore="SpeakableTextPresentCheck" />
 
     <ImageButton
@@ -124,7 +124,7 @@
         android:scaleType="centerInside"
         android:src="@drawable/yahoologin"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/txtLabelOR"
         tools:ignore="SpeakableTextPresentCheck" />
 
     <ImageButton
@@ -137,11 +137,11 @@
         android:scaleType="centerInside"
         android:src="@drawable/facebookicon"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/txtLabelOR"
         tools:ignore="SpeakableTextPresentCheck" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/txtLabelOR"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
@@ -153,7 +153,7 @@
         app:layout_constraintTop_toBottomOf="@+id/txtSignUp" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/txtNoAccount"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="120dp"
